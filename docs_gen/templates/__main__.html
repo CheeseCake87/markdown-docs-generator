@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title|title }} | Project</title>
+    <link rel="stylesheet" href="static/water.css">
+    <link rel="stylesheet" href="static/pygments.emacs-dull.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+</head>
+<body>
+
+{% include "__menu__.html" %}
+
+<section>
+    <h1 style="font-size: 2.6rem; margin: 0;">{{ title }}</h1>
+    {{ content|safe }}
+</section>
+
+</body>
+</html>
