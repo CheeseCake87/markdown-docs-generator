@@ -19,7 +19,7 @@ docs_markdown/
 flask --app docs_gen compile
 ```
 
-This command is used to do a one time compile of the markdown files into HTML.
+This command is used to do a one-time compile of the markdown files into HTML.
 
 ```text
 flask --app docs_gen watch
