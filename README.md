@@ -5,7 +5,7 @@ It leverages the power of Flask to render the markdown files into HTML.
 
 ## Setup
 
-Add the following folders and their contents to your project:
+Add the following folders and their contents from this project to the root of your project:
 
 ```text
 docs/
@@ -18,6 +18,7 @@ docs_markdown/
 ```text
 flask --app docs_gen compile
 ```
+
 This command is used to do a one time compile of the markdown files into HTML.
 
 ```text
@@ -66,7 +67,8 @@ The Title value is used to set the title of the HTML page.
 
 ## Styling
 
-This gives you a lot of control to set the styling by yourself in regular HTML/CSS or even JS if you'd want to build that in.
+This gives you a lot of control to set the styling by yourself in regular HTML/CSS or even JS if you'd want to build
+that in.
 
 You can edit anything in the `docs_gen/templates` folder to set whatever styles you'd like.
 
